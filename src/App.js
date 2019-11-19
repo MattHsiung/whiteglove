@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Page, Tabbar, Tab } from "react-onsenui";
+import "onsenui/css/onsenui.css";
+import "onsenui/css/onsen-css-components.css";
+import ScanQr from "./components/ScanQr";
+import CreateQr from "./components/CreateQr";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
+const App = () => (
+  <Page>
+    <Tabbar
+      position="bottom"
+      tabBorder
+      renderTabs={() => [
+        {
+          content: <ScanQr />,
+          tab: <Tab label="Scan" icon="fa-qrcode" />
+        },
+        {
+          content: <CreateQr />,
+          tab: <Tab label="Tag" icon="fa-tag" />
+        }
+      ]}
+    />
+  </Page>
+);
 export default App;
