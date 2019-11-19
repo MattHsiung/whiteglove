@@ -2,7 +2,7 @@
   "name": "whiteglove",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://MattHsiung.github.io/whiteglove",
+  "homepage": "http://matthsiung.github.io/whiteglove",
   "dependencies": {
     "onsenui": "^2.10.10",
     "qrcode.react": "^1.0.0",
@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "xpredeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

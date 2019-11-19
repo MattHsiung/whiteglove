@@ -9,12 +9,11 @@ const Label = styled.div`
   grid-template-columns: auto 1fr;
   grid-gap: 10px;
   border: 2px dashed black;
-  padding: 5px;
+  padding: 20px;
 `;
 
 const ClothingLabel = ({ listing }) => {
   const componentRef = useRef();
-
   return (
     <Card>
       <ReactToPrint
@@ -23,7 +22,7 @@ const ClothingLabel = ({ listing }) => {
       />
 
       <Label ref={componentRef}>
-        <QRCode value={listing.id} />
+        <QRCode value={`${listing.id}`} />
         <div>
           <p>{listing.title}</p>
           <p>{listing.user.username}</p>
