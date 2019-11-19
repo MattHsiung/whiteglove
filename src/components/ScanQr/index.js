@@ -4,8 +4,8 @@ import QrReader from "react-qr-reader";
 import useListingById from "../../hooks/listingById";
 import ListingCard from "../ListingCard";
 
-const ScanQr = props => {
-	const [listingId, setListingId] = useState("11735875");
+const ScanQr = () => {
+	const [listingId, setListingId] = useState(null);
 	const { data: listing, error } = useListingById(listingId);
   return (
     <Page>
