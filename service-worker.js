@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/whiteglove/precache-manifest.44c7276d4457a37d91097544f0c83d4b.js"
+  "/whiteglove/precache-manifest.fa929fef1c4eeba13bebc695a94a6d2c.js"
 );
 
 self.addEventListener('message', (event) => {

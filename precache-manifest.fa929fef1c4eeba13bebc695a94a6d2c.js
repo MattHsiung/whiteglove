@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c445d668bab5749f0cb88113fbc195b",
+    "revision": "5ee116b0066d8f69738b8bb823a350cc",
     "url": "/whiteglove/index.html"
   },
   {
-    "revision": "036a02164512a2125279",
+    "revision": "b00dec9411dbdf19ead1",
     "url": "/whiteglove/static/css/2.229249ff.chunk.css"
   },
   {
-    "revision": "f7b970955287a2f2c21b",
+    "revision": "b345ef0c48404d8d6d7b",
     "url": "/whiteglove/static/css/main.34de6062.chunk.css"
   },
   {
-    "revision": "036a02164512a2125279",
-    "url": "/whiteglove/static/js/2.55e6446d.chunk.js"
+    "revision": "b00dec9411dbdf19ead1",
+    "url": "/whiteglove/static/js/2.7f025a11.chunk.js"
   },
   {
-    "revision": "f7b970955287a2f2c21b",
-    "url": "/whiteglove/static/js/main.7dae2f1f.chunk.js"
+    "revision": "b345ef0c48404d8d6d7b",
+    "url": "/whiteglove/static/js/main.d29b2960.chunk.js"
   },
   {
     "revision": "459aad450cbcbd6350b1",
