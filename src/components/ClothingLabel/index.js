@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
-import QRCode from "qrcode.react";
+// import QRCode from "qrcode.react";
+import Barcode from "react-barcode";
 import { Button, Card } from "react-onsenui";
 import styled from "styled-components";
 import ReactToPrint from "react-to-print";
@@ -22,7 +23,8 @@ const ClothingLabel = ({ listing }) => {
       />
 
       <Label ref={componentRef}>
-        <QRCode value={`${listing.id}`} />
+        {/*<QRCode value={`${listing.id}`} />*/}
+        <Barcode value={`${listing.id}`} />
         <div>
           <p>{listing.title}</p>
           <p>{listing.user.username}</p>
@@ -31,6 +33,6 @@ const ClothingLabel = ({ listing }) => {
       </Label>
     </Card>
   );
-}
+};
 
 export default ClothingLabel;

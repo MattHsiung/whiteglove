@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, Page, AlertDialog, Card } from "react-onsenui";
-import QrReader from "react-qr-reader";
+// import QrReader from "react-qr-reader";
+import Barcode from '../Barcode';
 import useListingById from "../../hooks/listingById";
 import ListingCard from "../ListingCard";
 
@@ -18,17 +19,7 @@ const ScanQr = () => {
           </div>
         </AlertDialog>
       )}
-      {!listing && (
-        <QrReader
-          delay={300}
-          onError={console.error}
-          onScan={data => {
-            console.log(data);
-            setListingId(data);
-          }}
-          style={{ width: "100%" }}
-        />
-      )}
+      {!listing && <Barcode onScan={setListingId} />}
       {listingId && listing && (
         <>
           <Card>
