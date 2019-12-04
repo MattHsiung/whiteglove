@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/whiteglove/static/css/main.34de6062.chunk.css",
-    "main.js": "/whiteglove/static/js/main.d29b2960.chunk.js",
-    "main.js.map": "/whiteglove/static/js/main.d29b2960.chunk.js.map",
+    "main.js": "/whiteglove/static/js/main.af666c80.chunk.js",
+    "main.js.map": "/whiteglove/static/js/main.af666c80.chunk.js.map",
     "runtime-main.js": "/whiteglove/static/js/runtime-main.ee21cbf1.js",
     "runtime-main.js.map": "/whiteglove/static/js/runtime-main.ee21cbf1.js.map",
     "static/css/2.229249ff.chunk.css": "/whiteglove/static/css/2.229249ff.chunk.css",
     "static/js/2.7f025a11.chunk.js": "/whiteglove/static/js/2.7f025a11.chunk.js",
     "static/js/2.7f025a11.chunk.js.map": "/whiteglove/static/js/2.7f025a11.chunk.js.map",
     "index.html": "/whiteglove/index.html",
-    "precache-manifest.fa929fef1c4eeba13bebc695a94a6d2c.js": "/whiteglove/precache-manifest.fa929fef1c4eeba13bebc695a94a6d2c.js",
+    "precache-manifest.29f5c4b1d915bc003b587923d7d1e12d.js": "/whiteglove/precache-manifest.29f5c4b1d915bc003b587923d7d1e12d.js",
     "service-worker.js": "/whiteglove/service-worker.js",
     "static/css/2.229249ff.chunk.css.map": "/whiteglove/static/css/2.229249ff.chunk.css.map",
     "static/css/main.34de6062.chunk.css.map": "/whiteglove/static/css/main.34de6062.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.229249ff.chunk.css",
     "static/js/2.7f025a11.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.d29b2960.chunk.js"
+    "static/js/main.af666c80.chunk.js"
   ]
 }

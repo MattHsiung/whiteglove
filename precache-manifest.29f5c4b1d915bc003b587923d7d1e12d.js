@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ee116b0066d8f69738b8bb823a350cc",
+    "revision": "583a79eb804d1646dbf3e7ffab76eecf",
     "url": "/whiteglove/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whiteglove/static/css/2.229249ff.chunk.css"
   },
   {
-    "revision": "b345ef0c48404d8d6d7b",
+    "revision": "c1adf28ec510a6811bcb",
     "url": "/whiteglove/static/css/main.34de6062.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whiteglove/static/js/2.7f025a11.chunk.js"
   },
   {
-    "revision": "b345ef0c48404d8d6d7b",
-    "url": "/whiteglove/static/js/main.d29b2960.chunk.js"
+    "revision": "c1adf28ec510a6811bcb",
+    "url": "/whiteglove/static/js/main.af666c80.chunk.js"
   },
   {
     "revision": "459aad450cbcbd6350b1",
